@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #f900e2;
+}
+
+.bg {
+ height: 800px;
+ width: 100%;
+ background-color: #555;
+ background-image: url('https://cdn.mobygames.com/covers/2971216-mary-skelter-nightmares-ps-vita-front-cover.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment:fixed;
+}
+
+p {
+    font-size: 75px;
+}
