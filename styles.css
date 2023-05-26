@@ -1,11 +1,12 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root{
  font-size: 62.5%;
 }
-
+/* This part refers to the text underneath the image saying "Aprendendo CSS" */
 h1 {
     font-size: 80px;
     text-decoration: underline;
@@ -13,7 +14,7 @@ h1 {
     text-align: center;
     color: #f900e2;
 }
-
+/* This part refers to the main image and its background on the webiste */
 .bg {
  height: 100vh;
  width: 100%;
@@ -24,11 +25,12 @@ h1 {
  background-position: center;
  background-attachment:fixed;
 }
-
+/* This part refers to the wall of text underneath the link on the website */
 p {
     font-size: 7.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
+/* This part refers solely to the customization of the link Limbus Company underneath the main image of the website */
 a {
     font-size: 4.5rem;
 }
@@ -38,4 +40,41 @@ a:visited{
 
 a:hover{
     color: powderblue;
+}
+/* This part is the configurations of the table Tabela */
+.tabela td, .tabela th, .tabela {
+    border: 1px solid black;
+}
+
+.tabela tr:first-child{
+    background-color: slategrey;
+    color: white;
+}
+
+.tabela tr:nth-child(2n + 3){
+    background-color: rgb(255, 86, 80);
+}
+
+.tabela{
+    font-size: 6rem;
+    border-collapse: separate;
+}
+/* This part is about the configurations of the desorganizado and liJo lists */
+
+.desorganizado, .liJo {
+    font-size: 5rem;
+    padding-left: 6rem;
+}
+/* This part is the configuration of the box between lists */
+.box {
+    height: 20rem;
+    width: 40rem;
+    border: 2rem solid violet;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    background-color: springgreen;
+    color:white;
+    font-size: 6rem;
+    border-radius: 1rem;
+    text-align: center;
 }
