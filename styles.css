@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root{
  font-size: 62.5%;
 }
@@ -16,14 +15,15 @@ h1 {
 }
 /* This part refers to the main image and its background on the webiste */
 .bg {
+ position:relative;
  height: 100vh;
- width: 100%;
+ width: 100vw;
  background-color: #555;
  background-image: url('https://cdn.mobygames.com/covers/2971216-mary-skelter-nightmares-ps-vita-front-cover.jpg');
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center;
- background-attachment:fixed;
+ background-attachment:local;
 }
 /* This part refers to the wall of text underneath the link on the website */
 p {
@@ -65,6 +65,23 @@ a:hover{
     font-size: 5rem;
     padding-left: 6rem;
 }
+
+.menu {
+    top: 0px;
+    position:sticky;
+    background-color: aliceblue;
+    border: 1rem solid blueviolet;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 16rem;
+    z-index: 1;
+}
+
+.menu li {
+    list-style:circle;
+    margin: 1rem;
+    text-align: center;
+}
 /* This part is the configuration of the box between lists */
 .box {
     height: 20rem;
@@ -77,4 +94,5 @@ a:hover{
     font-size: 6rem;
     border-radius: 1rem;
     text-align: center;
+    display: inline-block;
 }
