@@ -114,3 +114,48 @@ a:hover{
 .box:nth-child(4){
     order:2;
 }
+
+[data-company ="GCO"]{
+    background-color: cornflowerblue;
+}
+/* This part refers to the configuration of the differences when printing the image */
+@media print {
+    .boxes {
+        display: none;
+    }
+    .menu{
+        display: static;
+        position: static;
+    }
+    .bg{
+        display: none;
+    }
+}
+
+/* This part refers to the configuration of the button Mary Skelter Merch */
+@keyframes bmerch {
+        0%{
+            background-color:#f900FC;
+        }
+
+        100%{
+            background-color:#83f7ff
+        }
+}
+[data-botao="produto"]{
+    background:#f900FC;
+    font-size: 4rem;
+    text-align: center;
+    border: 0.3rem solid black;
+    cursor:pointer;
+    padding: 1rem 0.6em;
+    transition: .18s ease-in-out, background-color .5s ease-in-out;
+    margin: auto;
+    display: block;
+}
+
+[data-botao="produto"]:hover{
+    color: #29ffe2;
+    transform: scale(1.03);
+    background-color:firebrick
+}
