@@ -83,16 +83,34 @@ a:hover{
     text-align: center;
 }
 /* This part is the configuration of the box between lists */
+
+.boxes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: center;
+    
+}
+
 .box {
-    height: 20rem;
-    width: 40rem;
+    min-height: 10rem;
+    min-width: 20rem;
     border: 2rem solid violet;
     padding: 1.5rem;
-    margin: 1.5rem;
+    margin: 0.5rem;
     background-color: springgreen;
     color:white;
     font-size: 6rem;
     border-radius: 1rem;
     text-align: center;
     display: inline-block;
+    flex-basis: 50%;
+    order:3
+}
+.box:nth-child(1){
+    order:1;
+}
+
+.box:nth-child(4){
+    order:2;
 }
