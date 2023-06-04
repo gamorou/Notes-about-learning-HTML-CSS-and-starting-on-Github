@@ -1,4 +1,4 @@
-# Learning-HTML-1
+# About and Notes
 This is the code that I am doing while learning HTML and related languages., it is the part 1 of these learnings which I expect more to come.
 
 Here is also my notes on many things, not everything is perfectly accurate, but it is written in a way that I myself can understand.
