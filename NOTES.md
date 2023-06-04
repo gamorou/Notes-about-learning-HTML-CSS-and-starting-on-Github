@@ -214,21 +214,21 @@ It has the configurations: `target=""` Which you can put the following between t
  
  `style=""` You can use the following configurations inside style or make a CSS with the following.
 
-` width: ` defines the width of the element, you can input the number of pixels like "100px", or you can put the percentage of the element you want displayed like "100%" do note that normaly putting both width and height in 100%  makes the an image invisible.
+`width:` defines the width of the element, you can input the number of pixels like "100px", or you can put the percentage of the element you want displayed like "100%" do note that normaly putting both width and height in 100%  makes the an image invisible.
 
-` height: ` defines the height of the element you can input the number of pixels like "100px", or you can put the percentage of the element you want displayed like "100%", do note that normaly putting both width and height in 100% makes the an image invisible.
+`height:` defines the height of the element you can input the number of pixels like "100px", or you can put the percentage of the element you want displayed like "100%", do note that normaly putting both width and height in 100% makes the an image invisible.
 
- `min-width: ` Defines the minimum width which can be increased by other properties, such as writing a longer text than the box can fit.
+ `min-width:` Defines the minimum width which can be increased by other properties, such as writing a longer text than the box can fit.
 
-` min-height: ` Defines the minimum height which can be increased by other properties, such as writing a longer text than the box can fit.
+`min-height:` Defines the minimum height which can be increased by other properties, such as writing a longer text than the box can fit.
 
- `color: ` Defines the color of the text or element.
+ `color:` Defines the color of the text or element.
 
- `opacity: ` Defines the opacity of the element, the default is 1. The main difference between opacity 0 and visibility:hidden, is that opacity 0 elements remains interative.
+ `opacity:` Defines the opacity of the element, the default is 1. The main difference between opacity 0 and visibility:hidden, is that opacity 0 elements remains interative.
  
-` visibility: ` Defines the visibility of the element.
+` visibility:` Defines the visibility of the element.
 
- `margin: ` Defines the size of the margins in your element (can be used inside the "*").
+ `margin:` Defines the size of the margins in your element (can be used inside the "*").
 
  `:root` is a pseudo-class that will give configs that will be based by other classes.
 
@@ -238,11 +238,11 @@ It has the configurations: `target=""` Which you can put the following between t
 
  `*insert config here*:first-child` Applies the config to the first element, this must be put with a config first on it, on the insert a config here part.
 
-` *insert config here*:nth-child()` Inside of it the () you can utilize the variable "n", where the default base of n 0, each of the elements in your config are numbered from 0  and counting, the n will affect all elements the count on it  reaches, you can also just use numbers without the n to affect only the element of the number.
+`*insert config here*:nth-child()` Inside of it the () you can utilize the variable "n", where the default base of n 0, each of the elements in your config are numbered from 0  and counting, the n will affect all elements the count on it  reaches, you can also just use numbers without the n to affect only the element of the number.
 
  `border: ` You can create a border on the element, with the first value being how thick it is, and the being its state, for it to show regurlaly put it as: solid; and the third is its color.
 
-` display: ` Change how the element occupies the space, block (is the default for most including divs, makes it occupy the entire width where it is not letting other elements stay at its side).
+`display:` Change how the element occupies the space, block (is the default for most including divs, makes it occupy the entire width where it is not letting other elements stay at its side).
 
 Configs for `display:` :
 
@@ -259,15 +259,15 @@ Configs for `display:` :
 
  `padding: ` Put the quantity of padding you want in the image, padding grows the element and creates distance between things inside of it as well, such as texts inside divs.
 
-` margin: ` Distances the element from everything by the amount put into it. You can also use the option: auto (for automatic margin from the corner of the screen).
+`margin:` Distances the element from everything by the amount put into it. You can also use the option: auto (for automatic margin from the corner of the screen).
 
  `border-radius: ` Cut the edges of the border by the amount put inside of it.
 
-` box-sizing: ` Changes the size of the boxes and fixes them, very useful to correct padding. You can use the config:border-box; to set it to the exact borders of the box.
+`box-sizing:` Changes the size of the boxes and fixes them, very useful to correct padding. You can use the config:border-box; to set it to the exact borders of the box.
 
  `position:`  Defines the position of the element. `absolute` (ignores any space restrictions and puts the element where it is initially expected to be), `relative` (puts the element in a relative position to its surroundings), `static` (it is not affected by pushing of `top`, `bottom`, etc, it is the default), `fixed` (makes the element be fixed on the  screen and follows the scroll), `stick` (makes the element fixed from the stablished direction), `flex` (It makes the space being occupied to be modular, by default it will have all elements inside it to fix in one line).
 
-` float:` is an outdated alternative to position, it works the same way.
+`float:` is an outdated alternative to position, it works the same way.
 
  `top: ` `left`  `right`  `bottom` : All of them pushes the element from the toward the set direction by the set amount, position can't be `static` for it to work.
  
@@ -278,7 +278,7 @@ Configs for `display:` :
 ` order: ` Changes the order of the element, normally utilized with nth-child to select a specific element among many. Input the number where you want the element in, if you put a non-utilized negative number the
 element will become first. You have to define the order of each element individualy as the default of all of them is 0.
 
- `transform: ` Changes the element with properties, such as: `scale()` Multiplies the scale of the element by the number inside, `rotate` Rotates the element by the number inside, `translateY` Moves the amount in Y, `translateX` same thing but X.
+ `transform:` Changes the element with properties, such as: `scale()` Multiplies the scale of the element by the number inside, `rotate` Rotates the element by the number inside, `translateY` Moves the amount in Y, `translateX` same thing but X.
 
  transition: ; Animates the transition of states of an element, must be put in the entire element, put first the seconds (you can write it as 1s for example) and then the       transition animation of choice, you can also put the characteristic you want to change in the first space to change only that specific characteristic.
 
@@ -287,19 +287,19 @@ element will become first. You have to define the order of each element individu
  `repeat(numberOfRepeats, input)` Repeats the input for the next elements based on the number of repeats, ex: repeat(3, 30px) will make the next 3 elements have 30px of size.
 
 ### Font configs:
-` font-size:`  Size of the font in pixels.
+`font-size:`  Size of the font in pixels.
 
-` font-weight:`  Makes the font as thick as the number of the input.
+`font-weight:`  Makes the font as thick as the number of the input.
 
-` font-style:`  Puts your font in the desired style like Italic for example, this does not change your font to another font type.
+`font-style:`  Puts your font in the desired style like Italic for example, this does not change your font to another font type.
 
  `text-decoration:`  Can add new details to your text, such as strikethrough, underline, and many others.
  
  `text-transform: ` Can be utilized to turn the entire text into Uppercase, Lowercase, or even automatically Capitalize letters as they should.
  
-` text-align: ` Changes the position of your text, such as `"center"`,`"left"`,`"right"`,`"justify"`.
+`text-align:` Changes the position of your text, such as `"center"`,`"left"`,`"right"`,`"justify"`.
 
- `text-family: ` Changes the family of the font to the one asigned, Such as `"Arial"`, `"Times New Roman"`, etc. 
+ `text-family:` Changes the family of the font to the one asigned, Such as `"Arial"`, `"Times New Roman"`, etc. 
  
  You can put commas and add other fonts to put options of fonts that  will be searched in the computer in case the first font is not found. 
 You can put more fonts by linking them in the original HTML with `<link rel="preconnect" href="" crossorigin>` where you insert the url of the font in the href. 
@@ -311,7 +311,7 @@ You can find these line of commands automatically on  Google  Fonts https://font
 
 
 ### Background configs:
-` background-color:` defines the color of the background.
+`background-color:` defines the color of the background.
  
  `background-image url('')` Utilized to put images on the background from the following url, you can use the command without url to put images from the directory.
  
@@ -325,7 +325,7 @@ You can find these line of commands automatically on  Google  Fonts https://font
 
 
 ### Table configs:
-` border-collapse: ""` Changes the type of the border, there is other types such as `Separate`, `Collapse`, etc.
+`border-collapse: ""` Changes the type of the border, there is other types such as `Separate`, `Collapse`, etc.
 
 
 ### List configs:
@@ -345,23 +345,23 @@ You can find these line of commands automatically on  Google  Fonts https://font
  Button configs:
 `<button>` Tag of button, you can put configs like: `onClick=()` [To define what happens on click, you can put a function in ReactJS]
 
- `cursor: ` Defines the cursor hovering over the button.
+ `cursor:` Defines the cursor hovering over the button.
 
  
 ### Animation configs:
- `@keyframe` Refers to animations, the name after it will be the name utilized by `Animation: ` put inside of it the properties that it will diplay through the animation in percentage, like `0%{}` for start and `100%{}` to the end, put things inside the brackets like regular.
+ `@keyframe` Refers to animations, the name after it will be the name utilized by `Animation:` put inside of it the properties that it will diplay through the animation in percentage, like `0%{}` for start and `100%{}` to the end, put things inside the brackets like regular.
  
- `animation: ` Controls the animations, use it like this: keyframeName secondsOfTheAnimation numberOfLoop. Must be put on the main element and not one of its states.
+ `animation:` Controls the animations, use it like this: keyframeName secondsOfTheAnimation numberOfLoop. Must be put on the main element and not one of its states.
 
-` animation-fill-mode: `
+` animation-fill-mode:`
 
- `animation-direction: ` Tells the direction the animation will follow, such as: alternate(Will alternate between the animation going towards the 100% or the 0%).
+ `animation-direction:` Tells the direction the animation will follow, such as: alternate(Will alternate between the animation going towards the 100% or the 0%).
 
 
 ### Grid configs:
-` grid-template-columns: ` It chooses a template pattern for the columns, such things can also be values. Each value that is input is the values that will that will dictate the  each amount each  will occupy, inputing none will leave the default. It also sets the quantity if the number of rows wasn't set before it.
+`grid-template-columns:` It chooses a template pattern for the columns, such things can also be values. Each value that is input is the values that will that will dictate the  each amount each  will occupy, inputing none will leave the default. It also sets the quantity if the number of rows wasn't set before it.
 
-` grid-template-rows:` It chooses a template pattern for the rows, such things can also be values. Each value that is input is the values that will dictate the each amount each will occupy, inputing none will leave the default. It also sets the quantity if the number of columns wasn't set before it.
+`grid-template-rows:` It chooses a template pattern for the rows, such things can also be values. Each value that is input is the values that will dictate the each amount each will occupy, inputing none will leave the default. It also sets the quantity if the number of columns wasn't set before it.
 
  `grid-area: insertName` To assign the ID of a grid area to an element, put it inside of an element, replace the name
 
@@ -377,11 +377,11 @@ You define the amount of lines there is it, by utilizing the following configura
 
  `row-gap:`  Specifies the gap size between rows of the grid.
 
-` column-gap:`  Specifies the gap size between columns of the grid.
+`column-gap:`  Specifies the gap size between columns of the grid.
 
 
 ### flex configs:
-` flex-wrap: ` Utilized with position or display flex, with position it adjusts the element to be able to break lines, with display, it can be used to make a flex display that needs configuration. 
+`flex-wrap:` Utilized with position or display flex, with position it adjusts the element to be able to break lines, with display, it can be used to make a flex display that needs configuration. 
  
  You can use configurations such as: 
  
@@ -389,7 +389,7 @@ You define the amount of lines there is it, by utilizing the following configura
  
 `wrap-reverse` (Inverts the order of the rows), `nowrap` (Its the default, which makes so there is no line break and instead it makes the elements create a scroll when they don't fit), `flex-end`(Pushes all items the most to the right of the screen),.
 
- `flex-direction: ` Makes so you can change the element in the direction your want, there is config such as: `column` (Extends through the entire screen width), `column-reverse` (like the logic of the wrap-reverse, it works like columns, but it reverses the order of the elements), `row-reverse` (Elements are displayed from right to left), `flex-end` (Pushes all items the to the most right side of the screen), flex-start(Pushes all items to the most left of the screen), etc.
+ `flex-direction:` Makes so you can change the element in the direction your want, there is config such as: `column` (Extends through the entire screen width), `column-reverse` (like the logic of the wrap-reverse, it works like columns, but it reverses the order of the elements), `row-reverse` (Elements are displayed from right to left), `flex-end` (Pushes all items the to the most right side of the screen), flex-start(Pushes all items to the most left of the screen), etc.
 
  `flex-flow:`  Combines the use of flex-wrap and flex-direction, with the first input being of flex-wrap, and the second being of flex-direction.
 
@@ -397,13 +397,13 @@ You define the amount of lines there is it, by utilizing the following configura
 
  `flex:`  Makes the elements occupy all space available with the weight of the number typed.
 
-` justify-items:`  Will adjust the position of the items based on the position you choose on the configs and your configuration on flex-flow/direction/wrap, such as: `Center, left, flex-end`(Pushes all items the most to the right of the screen), flex-start(Pushes all items to the most left of the screen), etc.
+`justify-items:`  Will adjust the position of the items based on the position you choose on the configs and your configuration on flex-flow/direction/wrap, such as: `Center, left, flex-end`(Pushes all items the most to the right of the screen), flex-start(Pushes all items to the most left of the screen), etc.
 
-` justify-content:`  Will adjust the position of the contents based on the position you choose on the configs and your configuration on flex-flow/direction/wrap, such  as: `Center, left, flex-end`(Pushes all items the most to the right of the screen), etc. This works on the main axis.
+`justify-content:`  Will adjust the position of the contents based on the position you choose on the configs and your configuration on flex-flow/direction/wrap, such  as: `Center, left, flex-end`(Pushes all items the most to the right of the screen), etc. This works on the main axis.
 
-` align-items:`  Align the items to occupy the designed space, Configs such as: Center, etc. This affects on the secondary axis. Can be used to correct flex-flow.
+`align-items:`  Align the items to occupy the designed space, Configs such as: Center, etc. This affects on the secondary axis. Can be used to correct flex-flow.
 
-` align-content` Align the content to occupy the designed space, Configs such as: Center, etc. This affects on the secondary axis. Can be used to correct flex-flow.
+`align-content` Align the content to occupy the designed space, Configs such as: Center, etc. This affects on the secondary axis. Can be used to correct flex-flow.
 
 ## Javascript:
 
