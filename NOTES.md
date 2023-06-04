@@ -315,7 +315,7 @@ You can find these line of commands automatically on  Google  Fonts https://font
  
  `background-image url('')` Utilized to put images on the background from the following url, you can use the command without url to put images from the directory.
  
- `background-size: ` Changes the size of the image, normally needs to be used to fit in the defined width and height. Certain commands can be used with it like: `"cover"` (which will automatically resize the image, but in case the proportion of the image does fit the width and height, it will cut the image), `"contain"` (will always displays the images on the proportionate size that fit in, but it will also always repeat them to fit the blank space unless prompted to not do so).
+ `background-size:` Changes the size of the image, normally needs to be used to fit in the defined width and height. Certain commands can be used with it like: `"cover"` (which will automatically resize the image, but in case the proportion of the image does fit the width and height, it will cut the image), `"contain"` (will always displays the images on the proportionate size that fit in, but it will also always repeat them to fit the blank space unless prompted to not do so).
  
  `background-repeat: no-repeat` Turns off the repeat of images on uses like "contain".
 
@@ -329,7 +329,7 @@ You can find these line of commands automatically on  Google  Fonts https://font
 
 
 ### List configs:
- `padding-*insert direction*: ` Defines the amount of pixels from the list markers, important because some markers are too close.
+ `padding-*insert direction*:` Defines the amount of pixels from the list markers, important because some markers are too close.
 
  `list-style:` Replaces the markers that stays at the left side of the list. `none`(Removes all markers but maintains padding-left), `circle` (changes them for a circle), `decimal-leading-zero` (adds a zero to the start of two digit numbers in ordened lists), `roman` (changes the list numbers to Roman numbers in ordered lists).
 
@@ -353,7 +353,7 @@ You can find these line of commands automatically on  Google  Fonts https://font
  
  `animation:` Controls the animations, use it like this: keyframeName secondsOfTheAnimation numberOfLoop. Must be put on the main element and not one of its states.
 
-` animation-fill-mode:`
+`animation-fill-mode:`
 
  `animation-direction:` Tells the direction the animation will follow, such as: alternate(Will alternate between the animation going towards the 100% or the 0%).
 
@@ -365,11 +365,11 @@ You can find these line of commands automatically on  Google  Fonts https://font
 
  `grid-area: insertName` To assign the ID of a grid area to an element, put it inside of an element, replace the name
 
-` grid-template-areas:`  By writing the quantity of lines in it (blank by writing just rows with "") 
+`grid-template-areas:`  By writing the quantity of lines in it (blank by writing just rows with "") 
 
 You define the amount of lines there is it, by utilizing the following configuration: 
 
-`grid-template-areas-nameOfArea` (Where the name of the area was set in grid-area). To address to areas with `grid-template-areas: ` inside of it, put the rows in order of apparence you want from top to down, and write from left to right the name of the `grid-area` defined before between them, such as `area1 area2 area3`,  you can also use a `.` to give a blank space, the `.` has a default flexible value, but by using gap in the same class you will define the amount of gap from the `.`, these define the amount of space each element in it occupy in display. 
+`grid-template-areas-nameOfArea` (Where the name of the area was set in grid-area). To address to areas with `grid-template-areas:` inside of it, put the rows in order of apparence you want from top to down, and write from left to right the name of the `grid-area` defined before between them, such as `area1 area2 area3`,  you can also use a `.` to give a blank space, the `.` has a default flexible value, but by using gap in the same class you will define the amount of gap from the `.`, these define the amount of space each element in it occupy in display. 
  
  The number of all collumns and rows must be the same throughout all the lines defined by it. 
  Elements in the rows also can't reappear once they are gone in one of the rows.
@@ -461,9 +461,9 @@ To compare variables you have to do: var1.valuevar1.toLowerCase().includes.(var2
  
  `<input>` it is a tag that defines that everything inside is an input to be recognized by the system.
  
-` value={variableOfTheInput}` Defines the value of the input, must be defined to be used by onChange, you should define the variable before as `const [variableOfTheInput,  setVariableOfTheInput] = ''`.
+`value={variableOfTheInput}` Defines the value of the input, must be defined to be used by onChange, you should define the variable before as `const [variableOfTheInput,  setVariableOfTheInput] = ''`.
  
-` onChange={(e) => setVariableOfTheInput (e.target.value)}` gets what is written by the function that inputs value and puts it in the variable, you need to set the value before  it, the "e" supposedly can have any name.
+`onChange={(e) => setVariableOfTheInput (e.target.value)}` gets what is written by the function that inputs value and puts it in the variable, you need to set the value before  it, the "e" supposedly can have any name.
  
  `variable.toLowerCase` Changes everything to lower case.
  
