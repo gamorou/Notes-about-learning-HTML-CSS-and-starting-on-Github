@@ -5,12 +5,12 @@ Here is also my notes on many things, not everything is perfectly accurate, but 
 
 # Notes
 
-Cmd:
+## Cmd:
 -Cd "folder path"; it is a command to put the current directory of action in the cmd to the one of where you are operating, you should copy the path of the file explorer and paste on the folder path part.
 
-Github:
+## Github:
 
- Commands:
+ ### Commands:
 -git init; starts github.
 -git config --global ; Put the name of the user with the addition of: user.name ""; email with: user.email "".
 -git pull; Its the command that if the folder is connected to github, it will pull the most recent branch of it.
@@ -24,81 +24,140 @@ Github:
 -git log --oneline --decorate; Shows informations about the HEAD.
 -git merge *branch name*; Merge the current branch with the designed branch.
 
- Others:
+ ### Others:
 -A code file named .gitignore can be made with the files to be ignored by the github upload.
 -Different branches can keep different progress, you can make different branches and go to different times of work.
 
-HTML:
+## HTML:
 
- Commands:
--<html lang="">; Put the language of use in your HTML inside the quotation marks "" part as in short names (like 'en' for English, 'pt-br' for Portuguese), this part used by  accesibility options, so put the proper language.
--<meta http-equiv="X-UA-Compatible" content="IE=edge">; Adds comptability to the browser Internet explorer, not much use other than that.
--<meta name="viewport" content="width=device-width, initial-scale=1.0">; Viewport means the area where images and elements are rendered in the website. the content part   matches the width of the device of the user. The initial-scale has the scale of the objects multiplied by its value, which the default is 1.
--<meta charset="UTF-8>; Means the character form, things needed if you want to use special characters such as Kanji, arabic, cylliric, etc.
--<title>; Is an element to define the name of your tab
--<p>; It is an element. Writes plainly inside your tab, by using two separate instances you create the phrases in different lines, it will never create paragraphs within the  same instance unless it has a <br> between it.
--<br>; It is a non-closed tag to breakdown lines inside <p>.
--<b>; It is an inline that turns whatever text inside it into Bold. <strong> is an alternative that works the same way.
--<i>; It is an inline that turns whatever text inside it into Italic. <em> is an alternative that works the same way.
--<u>; It is an inline that turns whatever text inside it into underlined. It is outdated by its CSS equivalent.
--<s>; It is an inline that turns whatever text inside it into strikethrough.
--<mark>; It is inline that turns whatever text inside it into highlighted words.
--<span>; It is the CSS equivalent that can work inline to change whatever text into something different.
--<pre>; It is an element that turns whatever words inside it into pre-formated text (The kind of text code is written as).
--<code>; It is an inline. It does the same as <pre> but it works inline.
--<blockquote>; It is an element that separates a block to the text written on it.
--<sup>; It is an inline turns whatever text inside it into a small text on the half above of the regular text (normally used to do things like 2^10 have the 10 being small at  the side of the 10).
---<sub>; It is an inline turns whatever text inside it into a small text on the half below of the regular text (normally used to do things chemical elements).
--<div>; It is an element. It creates a new block section of the HTML.
--<header>; It is an element made to refer to the structure that stays on top of the page, the difference is semantics for code structure.
--<main>; It is an element made to refer to the main contents of the page, the difference is semantics.
--<footer>; It is an element made to refer to the structure that stays on the bottom of the page, the difference is semantics for code structure.
--<aside>; It is an element made to refer to the structure that stays on the side of the page, the difference is semantics for code structure.
--<nav>; It is is an element that implements a navegation bar, a bar that works like a lateral list on the top of a website.
--<section id="">; It is an element made to refer to the sections inside a page.
--<article>; It is an element, you can use all semantic tags inside of it with it being separated from the main code.
--<!--  -->; Is the commentary function in HTML, on VSCode you can use ctrl+/ to easily form comments.
--<h1> to <h6>; It is an element and level of headers you can have, you have from 1 to 6, with all numbers between them, the higher the number, the smaller it is.
--<a href="">; It is an element to implement links, you put the link between the brackets and inside the element you write the text you want to have referencing to that link as  a hyperlink. It has the configurations: target=""; Which you can put the following between the brackets to do the following things: "_blank" creates a new tab to enter the   link, "_self" it is the default configuration which goes from the website into the link without changing tabs. 
+ ### Commands:
+`<html lang="">` Put the language of use in your HTML inside the quotation marks "" part as in short names (like 'en' for English, 'pt-br' for Portuguese), this part used by  accesibility options, so put the proper language.
+
+`<meta http-equiv="X-UA-Compatible"  content="IE=edge">` Adds comptability to the browser Internet explorer, not much use other than that.
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">` Viewport means the area where images and elements are rendered in the website. the content part   matches the width of the device of the user. The initial-scale has the scale of the objects multiplied by its value, which the default is 1.
+
+`<meta charset="UTF-8">` Means the character form, things needed if you want to use special characters such as Kanji, arabic, cylliric, etc.
+
+`<title>` Is an element to define the name of your tab
+
+`<p>` It is an element. Writes plainly inside your tab, by using two separate instances you create the phrases in different lines, it will never create paragraphs within the  same instance unless it has a <br> between it.
+
+`<br>` It is a non-closed tag to breakdown lines inside `<p>`.
+
+`<b>` It is an inline that turns whatever text inside it into Bold. `<strong>` is an alternative that works the same way.
+
+`<i>` It is an inline that turns whatever text inside it into Italic. `<em>` is an alternative that works the same way.
+
+`<u>` It is an inline that turns whatever text inside it into underlined. It is outdated by its CSS equivalent.
+
+`<s>` It is an inline that turns whatever text inside it into strikethrough.
+
+`<mark>` It is inline that turns whatever text inside it into highlighted words.
+
+`<span>` It is the CSS equivalent that can work inline to change whatever text into something different.
+
+`<pre>` It is an element that turns whatever words inside it into pre-formated text (The kind of text code is written as).
+
+`<code>` It is an inline. It does the same as `<pre>` but it works inline.
+
+`<blockquote>` It is an element that separates a block to the text written on it.
+
+`<sup>` It is an inline turns whatever text inside it into a small text on the half above of the regular text (normally used to do things like 2^10 have the 10 being small at  the side of the 10).
+
+`<sub>` It is an inline turns whatever text inside it into a small text on the half below of the regular text (normally used to do things chemical elements).
+
+`<div>` It is an element. It creates a new block section of the HTML.
+
+`<header>` It is an element made to refer to the structure that stays on top of the page, the difference is semantics for code structure.
+
+`<main>` It is an element made to refer to the main contents of the page, the difference is semantics.
+
+`<footer>` It is an element made to refer to the structure that stays on the bottom of the page, the difference is semantics for code structure.
+
+`<aside>` It is an element made to refer to the structure that stays on the side of the page, the difference is semantics for code structure.
+
+`<nav>` It is is an element that implements a navegation bar, a bar that works like a lateral list on the top of a website.
+
+`<section id="">` It is an element made to refer to the sections inside a page.
+
+`<article>` It is an element, you can use all semantic tags inside of it with it being separated from the main code.
+
+`<!--  -->` Is the commentary function in HTML, on VSCode you can use ctrl+/ to easily form comments.
+
+`<h1>` to `<h6>` It is an element and level of headers you can have, you have from 1 to 6, with all numbers between them, the higher the number, the smaller it is.
+
+`<a href="">` It is an element to implement links, you put the link between the brackets and inside the element you write the text you want to have referencing to that link as  a hyperlink. 
+It has the configurations: `target=""` Which you can put the following between the brackets to do the following things: `"_blank"` creates a new tab to enter the link, `"_self"` it is the default configuration which goes from the website into the link without changing tabs.
  By putting "/" it will always go back to the main page.
- You can use the element <img src="" alt=""> inside it to refer to a clickeable image that will go to the desired link.
--<img src="" alt="">; It is an exception to the rule of having to close the tag. It creates an image in your tab.
+ You can use the element `<img src="" alt="">` inside it to refer to a clickeable image that will go to the desired link.
+ 
+`<img src="" alt="">` It is an exception to the rule of having to close the tag. It creates an image in your tab.
+ 
  You can put the following configs inside it: 
- src=""; requests the directory/source and name of the image, where you put the directory and image file you plan to put in, alternatively you can paste the link of   the  image from the internet directly inside the src and it will work the same, write everything inside the quotations. 
- alt=""; is a description of the image you  uploaded. Extra configurations: 
- width=""; is the width size in pixels of your image, you must write the numbers of the pixels inside the quotations, if the height is not specified it will automatically  match the width in proportions, alternatively you can also utilize percentage of the header that the image will use as space, like "10%".
- height=""; works exactly like the width, but for height. By defining both height and width the image files will have the desired pixel size regardless of proportions.
--<figure>; It is an element that is normally used in code structure to put the element <img src="" alt=""> inside and have a clearer code.
--<figcaption; It is an element that is normally used in code structure to add captions to images inside the <figure> element.
--<ul>; It is an element that creates a list that is numbered, to insert items in it you have to utilize the element <li>.
--<ol>; It is an element that creates a list that is numbered, to insert items in it you have to utilize the element <li>.
--<li>; It is an element that is utilized in lists to be elements of the list, inside this element you can write what should appear in the list.
--<table>; It is an element that serves to form a table of contents. 
+ 
+ `src=""` requests the directory/source and name of the image, where you put the directory and image file you plan to put in, alternatively you can paste the link of   the  image from the internet directly inside the src and it will work the same, write everything inside the quotations. 
+ `alt=""` is a description of the image you  uploaded. 
+ 
+ Extra configurations: 
+ 
+ `width=""` is the width size in pixels of your image, you must write the numbers of the pixels inside the quotations, if the height is not specified it will automatically  match the width in proportions, alternatively you can also utilize percentage of the header that the image will use as space, like "10%".
+ `height="" `works exactly like the width, but for height. By defining both height and width the image files will have the desired pixel size regardless of proportions.
+ 
+`<figure>` It is an element that is normally used in code structure to put the element `<img src="" alt="">` inside and have a clearer code.
+
+`<figcaption>` It is an element that is normally used in code structure to add captions to images inside the `<figure>` element.
+
+`<ul>` It is an element that creates a list that is numbered, to insert items in it you have to utilize the element `<li>`.
+
+`<ol>` It is an element that creates a list that is numbered, to insert items in it you have to utilize the element `<li>`.
+
+`<li>` It is an element that is utilized in lists to be elements of the list, inside this element you can write what should appear in the list.
+
+`<table>` It is an element that serves to form a table of contents. 
+
  You can put the following configs inside of it: 
- border =""; it is a config that adds a border around the   table with a different style based on the number put inside the "".
--<thead>; It is an element utilized to serve as the head of the <table> element.
--<tbody>; It is an element utilized to serve as the body of the <table> element.
--<tr>; It is an element that creates a row inside the parts of a <table> element.
--<th>; It is an element defines the name of the row inside <tr> element that is inside of a <thead>.
--<form>; It is an element that is utilized to create forms. 
+ `border =""` it is a config that adds a border around the table with a different style based on the number put inside the "".
+ 
+ 
+`<thead>` It is an element utilized to serve as the head of the `<table>` element.
+
+`<tbody>` It is an element utilized to serve as the body of the `<table>` element.
+
+`<tr>` It is an element that creates a row inside the parts of a `<table>` element.
+
+`<th>` It is an element defines the name of the row inside `<tr>` element that is inside of a `<thead>`.
+
+`<form>` It is an element that is utilized to create forms. 
+
  You can put the following configs inside of it: 
- action=""; its the action done when submited, when left empty it refreshes the page.
- method="";
--<input id="">; It is a non-closed tag that creates field to be filled by the user with many different configurations. 
+ `action=""` its the action done when submited, when left empty it refreshes the page.
+ `method=""`
+ 
+`<input id="">` It is a non-closed tag that creates field to be filled by the user with many different configurations. 
+
  You can put the following configs inside of it:
- type=""; defines the types are to be put in, the following types can be used: "text", "password", "email", "number", "date", "time", "file", "url", "checkbox", "color",  "range" (scroll), "radio" (single choice checkbox), "reset" (clears all other letterboxes), "submit" 
- placeholder=""; puts a grey text for when the letterbox isn't being utilized, commonly used to indicate what should be written inside by the user.
--<label>; It is an element that is used to apply labels to other elements, what's written inside of it that will be applied.
+ `type=""` defines the types are to be put in, the following types can be used: "text", "password", "email", "number", "date", "time", "file", "url", "checkbox", "color",  "range" (scroll), "radio" (single choice checkbox), "reset" (clears all other letterboxes), "submit" 
+ `placeholder=""` puts a grey text for when the letterbox isn't being utilized, commonly used to indicate what should be written inside by the user.
+ 
+`<label>` It is an element that is used to apply labels to other elements, what's written inside of it that will be applied.
+
  You can put the following configs inside of it:
- for=""; Refers to which element the label will be applied to, put the id of the element you want inside the "".
- value=""; Already sets a initial text inside the letterbox.
--<textarea>; It is an element that creates a big area to text to be put in, they have rows and columns that are configurable.
--<select>; It is a tag to give a list that will give options to the user to select. Utilize <option> inside it to put the options.
--<option>; It is utilized to details the options inside something. Value inside of it works similar to ID.
+ `for=""` Refers to which element the label will be applied to, put the id of the element you want inside the "".
+ `value=""` Already sets a initial text inside the letterbox.
+ 
+`<textarea>` It is an element that creates a big area to text to be put in, they have rows and columns that are configurable.
+
+`<select>` It is a tag to give a list that will give options to the user to select. Utilize `<option>` inside it to put the options.
+
+`<option>` It is utilized to details the options inside something. Value inside of it works similar to ID.
+
  You can put the following configs inside of it:
- disabled; You can put to grey out the option and put an option that can't be selected, you can also use: disabled selected; to make it be the default answer.
--<Style>; It is an element that works exactly as its CSS equivalent.
--<link>; Links to a .css file that will be utilized.
+ `disabled` You can put to grey out the option and put an option that can't be selected, you can also use: disabled selected; to make it be the default answer.
+ 
+`<Style>` It is an element that works exactly as its CSS equivalent.
+
+`<link>` Links to a .css file that will be utilized.
 
  Others:
 -HTML must have these three in order <HTML>,<Head>, and <Body>.
@@ -116,7 +175,7 @@ CSS:
 Others:
  On CSS, different from HTML, remember to always add ";" at the end of the commands.
 
- Hexadecimal colors works like this: The first two digits represent the red, the second the green, the third the blue, instead of numbers, for a stronger color you can use      letters from A to F in the hexadecimal, with FF being the full color, always the first digit of a color pair is the one that has to have the stronger tone.
+ Hexadecimal colors works like this: The first two digits represent the red, the second the green, the third the blue, instead of numbers, for a stronger color you can use letters from A to F in the hexadecimal, with FF being the full color, always the first digit of a color pair is the one that has to have the stronger tone.
 
  To work with classes in CSS, you have to add a "." on the start of them when writing them down, otherwise it will only work with elements.
 
@@ -140,7 +199,7 @@ Others:
 
  To reference ids utilize "#id" without the quotations, much like ".class".
 
- To reference to (data-placholdername ="") for attributes, utilize [data-placeholdername =""], you can also select all of the attributes inside the tag with the following     syntax: [data-placeholdername] .
+ To reference to (data-placholdername ="") for attributes, utilize [data-placeholdername =""], you can also select all of the attributes inside the tag with the following syntax: [data-placeholdername] .
 
 Configurations of css:
  General configs:
