@@ -1,7 +1,9 @@
-# About and Notes
+# About
 This is the code that I am doing while learning HTML and related languages., it is the part 1 of these learnings which I expect more to come.
 
 Here is also my notes on many things, not everything is perfectly accurate, but it is written in a way that I myself can understand.
+
+# Notes
 
 Cmd:
 -Cd "folder path"; it is a command to put the current directory of action in the cmd to the one of where you are operating, you should copy the path of the file explorer and paste on the folder path part.
