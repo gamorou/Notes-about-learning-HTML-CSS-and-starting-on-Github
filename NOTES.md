@@ -159,7 +159,7 @@ It has the configurations: `target=""` Which you can put the following between t
 
 `<link>` Links to a .css file that will be utilized.
 
- Others:
+ ### Others:
 -HTML must have these three in order <HTML>,<Head>, and <Body>.
 -You can just type HTML and press tab on VSCode to get the presets, you can also just type "!" to do the same.
 -All elements must end with an equivalent </element>, it is noticeable that all details and configurations of the element, stay just in the first part.
@@ -170,9 +170,9 @@ It has the configurations: `target=""` Which you can put the following between t
 -To elements be identified by javascript, you need to add: name=""; to the element.
 -You can put: class""; inside the elements to define classes on the tags and elements.
 
-CSS:
+## CSS:
 
-Others:
+### Others:
  On CSS, different from HTML, remember to always add ";" at the end of the commands.
 
  Hexadecimal colors works like this: The first two digits represent the red, the second the green, the third the blue, instead of numbers, for a stronger color you can use letters from A to F in the hexadecimal, with FF being the full color, always the first digit of a color pair is the one that has to have the stronger tone.
@@ -201,8 +201,8 @@ Others:
 
  To reference to (data-placholdername ="") for attributes, utilize [data-placeholdername =""], you can also select all of the attributes inside the tag with the following syntax: [data-placeholdername] .
 
-Configurations of css:
- General configs:
+## Configurations of css:
+ ### General configs:
  style=""; You can use the following configurations inside style or make a CSS with the following.
 
  width: ; defines the width of the element, you can input the number of pixels like "100px", or you can put the percentage of the element you want displayed like "100%" do      note that normaly putting both width and height in 100%  makes the an image invisible.
@@ -262,7 +262,7 @@ Configurations of css:
 
  repeat(numberOfRepeats, input); Repeats the input for the next elements based on the number of repeats, ex: repeat(3, 30px) will make the next 3 elements have 30px of size.
 
- Font configs:
+### Font configs:
  font-size: ; Size of the font in pixels.
  font-weight: ; Makes the font as thick as the number of the input.
  font-style: ; Puts your font in the desired style like Italic for example, this does not change your font to another font type.
@@ -273,7 +273,7 @@ Configurations of css:
  text-indent: ; Creates a space between the left side and the first word of the text, used normally to start new paragraphs. The size is measured in pixels.
 
 
- Background configs:
+### Background configs:
  background-color: ;defines the color of the background.
  
  background-image url(''); Utilized to put images on the background from the following url, you can use the command without url to put images from the directory.
@@ -287,17 +287,17 @@ Configurations of css:
  background-attachment: ; Attaches the background so it will always be displayed in some way, it can be configured in many ways such as "fixed".
 
 
- Table configs:
+### Table configs:
  border-collapse: ""; Changes the type of the border, there is other types such as "Separate", "Collapse", etc.
 
 
- List configs:
+### List configs:
  padding-*insert direction*: ; Defines the amount of pixels from the list markers, important because some markers are too close.
 
  list-style: ; Replaces the markers that stays at the left side of the list. none(Removes all markers but maintains padding-left), circle (changes them for a circle),           decimal-leading-zero (adds a zero to the start of two digit numbers  in ordened lists), roman (changes the list numbers to Roman numbers in ordered lists).
 
 
- @media configs:
+### @media configs:
  @media ; Refers to which properties/situations/devices will have special conditions, such as when printing the page with @media print.
 
  @media screen ; can be utilized with additionals after putting an "and" like: (min-width) [To influence in the minimum width of screen].
@@ -311,7 +311,7 @@ Configurations of css:
  cursor: ; Defines the cursor hovering over the button.
 
  
- Animation configs:
+### Animation configs:
  @keyframe; Refers to animations, the name after it will be the name utilized by Animation: ; put inside of it the properties that it will diplay through the animation in     percentage, like "0%{}" for start and "100%{}" for end, put things inside the brackets like regular.
  
  animation: ; Controls the animations, use it like this: keyframeName secondsOfTheAnimation numberOfLoop. Must be put on the main element and not one of its states.
@@ -321,7 +321,7 @@ Configurations of css:
  animation-direction: ; Tells the direction the animation will follow, such as: alternate(Will alternate between the animation going towards the 100% or the 0%).
 
 
- Grid configs:
+### Grid configs:
  grid-template-columns: ; It chooses a template pattern for the columns, such things can also be values. Each value that is input is the values that will that will dictate the  each amount each  will occupy, inputing none will leave the default. It also sets the quantity if the number of rows wasn't set before it.
 
  grid-template-rows: It chooses a template pattern for the rows, such things can also be values. Each value that is input is the values that will dictate the each amount each   will occupy, inputing none will leave the default. It also sets the quantity if the number of columns wasn't set before it.
@@ -336,7 +336,7 @@ Configurations of css:
  column-gap: ; Specifies the gap size between columns of the grid.
 
 
- flex configs:
+### flex configs:
  flex-wrap: ; Utilized with position or display flex, with position it adjusts the element to be able to break lines, with display, it can be used to make a flex display that   needs configuration. You can use configurations such as: wrap (Adjusts so the elements only wrap when the display by the user is small enough to require wrapping, which        means that the elements only break lines when the user has a small enough display), wrap-reverse (Inverts the order of the rows), nowrap (Its the default, which makes so       there is no line break and instead it makes the elements create a scroll when they don't fit), flex-end(Pushes all items the most to the right of the screen),.
 
  flex-direction: ; Makes so you can change the element in the direction your want, there is config such as: column (Extends through the entire screen width), column-reverse     (like the logic of the wrap-reverse, it works like columns, but it reverses the order of the elements), row-reverse (Elements are displayed from right to left), flex-end       (Pushes all items the to the most right side of the screen), flex-start(Pushes all items to the most left of the screen), etc.
@@ -355,15 +355,15 @@ Configurations of css:
 
  align-content ; Align the content to occupy the designed space, Configs such as: Center, etc. This affects on the secondary axis. Can be used to correct flex-flow.
 
-Javascript:
+## Javascript:
 
- Commands:
+### Commands:
  let VarName = ; defines the value of the variable.
 
 
-ReactJS:
+## ReactJS:
 
- Other:
+### Other:
  "npm create vite" You can create a new ReactJS project by using the command in the powershell on visual studio code
  "npm run dev" Executes the project and gives you the URL to access the project
  You can open the file easily by browsin the folder, or by utilizing "code ." on the powershell for the Visual Studio code do it automatically.
@@ -386,7 +386,7 @@ ReactJS:
  Collateral effects are: Hooking information from website, filtering information, executing a functions in a certain time or each certain time.
  To compare variables you have to do: var1.valuevar1.toLowerCase().includes.(var2.toLowerCase()), you can do if and else as normal too.
 
- Commands:
+### Commands:
  <input> Commands:
  <input>; it is a tag that defines that everything inside is an input to be recognized by the system.
  value={variableOfTheInput}; Defines the value of the input, must be defined to be used by onChange, you should define the variable before as "const [variableOfTheInput,  setVariableOfTheInput] = ''.
